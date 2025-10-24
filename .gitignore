@@ -205,3 +205,40 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Add to existing .gitignore
+echo "
+# Virtual Environment
+venv/
+env/
+
+# Data files (large files)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model files
+models/*.pth
+models/*.pt
+models/*.h5
+!models/.gitkeep
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Results
+results/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+tensorboard_logs/
+" >> .gitignore
