@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author
 
-Your Name - [SubramaniMokkala](https://github.com/SubramaniMokkala)
+[SubramaniMokkala](https://github.com/SubramaniMokkala)
 
 ## 📝 License
 
